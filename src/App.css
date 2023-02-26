@@ -1,7 +1,11 @@
 .App {
   text-align: center;
-  background: linear-gradient(to left top,#0ab5f8, #f11ce0 80%);
-  width: 100vw;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position:absolute;
 }
 
 .App-logo {
@@ -14,81 +18,10 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.checked {
-  color: orange;
-}
-.fa{
-  padding:4%;
-  background-color: rgba(247, 243, 13, 0.363);
-  border-width: 0;
-  border-radius: 30%;
-}
-.star-rating{
-  width:20vw;
-
-}
-.header {
-  background: linear-gradient(to left top,#8e0ec0, #ecd60e 80%);
-  min-height: 10vh;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color:white;
-  border-bottom-left-radius: 40%;
-  border-bottom-right-radius: 40%;
-}
-.footer {
-  background: linear-gradient(to left top,#8e0ec0, #ecd60e 80%);
-  min-height: 10vh;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color:white;
-  margin-top: 2%;
-  border-top-left-radius: 40%;
-  border-top-right-radius: 40%;
-
-}
 .App-link {
   color: #61dafb;
 }
-.button-container{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-.next-button{
-  width:6vw;
-  height: 6vw;
-  border-radius: 40%;
-  background-color:rgb(123, 245, 119);
-  margin-left: 6vw;
-}
 
-.previous-button{
-  width:6vw;
-  height: 6vw;
-  border-radius: 40%;
-  background-color:rgb(245, 29, 13);
-}
-.cat-image{
-  object-fit: cover;
-  max-width:98vw;
-  height: 70vh;
-  width: auto;
- 
-  align-self: center;
-  padding: 1vh;
-  border-radius: 20%;
-
-}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

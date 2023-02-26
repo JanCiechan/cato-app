@@ -6,7 +6,7 @@ import CuteCatContainer from './CuteCatContainer';
 
 function App() {
   return (
-    <div class='App'>
+    <div class='App bg-primary-subtle'>
     <Header/>
     <CuteCatContainer/>
     <Footer/>

@@ -1,0 +1,53 @@
+.button-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    width: 50%;
+    margin: auto;
+    padding-top:10% ;
+    
+   
+    
+  }
+.checked {
+    color: orange;
+  }
+.fa{
+    padding:4%;
+    background-color: rgba(247, 243, 13, 0.26);
+    border-width: 0;
+    border-radius: 40%;
+    
+  }
+
+
+.star-rating{
+    width:20vw;
+   
+  
+  }
+.next-button{
+    width:6vw;
+    height: 6vw;
+    border-radius: 50%;
+    background-color:rgba(112, 112, 112, 0.582);
+
+  }
+  
+.previous-button{
+    width:6vw;
+    height: 6vw;
+    border-radius: 50%;
+    background-color:rgba(112, 112, 112, 0.582);
+}
+
+.previous-button:hover{
+    background-color:rgba(233, 233, 233, 0.582);
+
+}
+
+.next-button:hover{
+    background-color:rgba(233, 233, 233, 0.582);
+
+}

@@ -1,0 +1,28 @@
+.cat-image{   
+    height: 60vh;
+    width: 60vw;
+    object-fit: cover;
+    
+    
+    align-self: center;
+    
+    border-radius: 8%;
+    background-color: aliceblue;
+  
+  }
+.cat-container{
+    align-items: center;
+    justify-content: center;
+    
+    display: block;
+    background-color: rgba(104, 103, 103, 0.356);
+    width: fit-content;
+    height: auto;
+    max-height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5vw;
+}
