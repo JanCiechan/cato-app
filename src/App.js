@@ -1,16 +1,19 @@
-import logo from './logo.svg';
+import { Provider } from 'react-redux';
+import store from "./app/store"
 import './App.css';
-import Header from './Header';
-import Footer from './Footer';
-import CuteCatContainer from './CuteCatContainer';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import CuteCatContainer from './components/CuteCatContainer';
 
 function App() {
   return (
-    <div class='App bg-primary-subtle'>
-    <Header/>
-    <CuteCatContainer/>
-    <Footer/>
-    </div>
+    <Provider store={store}>
+      <div class='App bg-primary-subtle'>
+        <Header/>
+          <CuteCatContainer/>
+        <Footer/>
+      </div>
+      </Provider>
   );
 }
 
